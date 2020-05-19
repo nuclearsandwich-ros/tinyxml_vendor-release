@@ -1,0 +1,12 @@
+Source: ros-testing-tinyxml-vendor
+Section: misc
+Priority: optional
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libtinyxml-dev, ros-testing-ament-cmake, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-tinyxml-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libtinyxml-dev, ros-testing-ros-workspace
+Description: CMake shim over the tinxml library.
